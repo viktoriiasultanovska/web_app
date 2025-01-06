@@ -4,7 +4,7 @@ import helpers.todo_functions as tdf
 st.title('My Todo App')
 st.subheader('This is my todo app')
 
-st.write('This app is to increase productivity')
+st.write('This app is to increase <b>productivity</b>', unsafe_allow_html=True)
 
 todos = tdf.get_todos()
 
